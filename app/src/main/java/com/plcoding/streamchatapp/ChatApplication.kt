@@ -6,6 +6,8 @@ import io.getstream.chat.android.client.ChatClient
 import io.getstream.chat.android.livedata.ChatDomain
 import javax.inject.Inject
 
+
+//application class
 @HiltAndroidApp
 class ChatApplication: Application() {
 
