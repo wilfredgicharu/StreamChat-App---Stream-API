@@ -11,7 +11,7 @@ import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-
+//viewmodel
 @HiltViewModel
 class LoginViewModel @Inject constructor(
     private val client : ChatClient
