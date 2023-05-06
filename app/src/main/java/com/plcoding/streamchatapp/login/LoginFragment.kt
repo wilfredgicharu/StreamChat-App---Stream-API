@@ -49,7 +49,7 @@ class LoginFragment : BindingFragment<FragmentLoginBinding>() {
                         setupIdleUiState()
                         Toast.makeText(
                             requireContext(),
-                            "Successful login",
+                            "Login Successful",
                             Toast.LENGTH_LONG
                         ).show()
                         findNavController().navigate(R.id.action_loginFragment_to_channelFragment)
@@ -59,7 +59,7 @@ class LoginFragment : BindingFragment<FragmentLoginBinding>() {
                         Toast.makeText(
                             requireContext(),
                             event.error,
-                            Toast.LENGTH_LONG
+                            Toast.LENGTH_SHORT
                         ).show()
                     }
                 }
